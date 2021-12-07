@@ -1,0 +1,80 @@
+body
+{
+    background-color: black;
+}
+div
+{
+    display: block;
+}
+.centered 
+{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .top-right
+  {
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  .logo
+  {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 450px;
+    height: 130px;  
+  }
+
+
+.Search-bar
+  {
+    position: absolute;
+    border: white;
+    width: 600px;
+    height: 50px;
+
+  }
+  .btn
+  {
+      margin-left: 600px;
+      position: absolute;
+      text-align: center;
+      width: 125px;
+      height: 50px;
+  }
+  .collapsible {
+    margin-left: 350px;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    height: 80px;
+    width: 60%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  .collapsible:hover
+  {
+    background-color: rgb(59, 59, 59);
+  }
+  .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.email
+{
+  position: absolute;
+  border: white;
+  width: 600px;
+  height: 50px;
+  margin-left: 400px;
+}
